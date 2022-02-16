@@ -14,3 +14,4 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
   - [Useful resources](#useful-resources - youtube and goggle)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
+  I am grateful to the frontendmentors team for this great platform.
