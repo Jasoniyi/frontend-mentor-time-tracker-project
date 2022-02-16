@@ -30,9 +30,9 @@
                     </div>
                     <div class="report-card-btm">
                         <ul>
-                            <li>Daily</li>
-                            <li class="active">Weekly</li>
-                            <li>Monthly</li>
+                            <li id="day">Daily</li>
+                            <li id="week">Weekly</li>
+                            <li id="month">Monthly</li>
                         </ul>
                     </div>
                 </div>
@@ -46,8 +46,8 @@
                             <img src="/images/icon-ellipsis.svg" alt="" />
                         </div>
                         <div class="card-wrapper-box-md">
-                        <div class="card-wrapper-box-time">32hrs</div>
-                        <div class="card-wrapper-box-week">
+                        <div class="card-wrapper-box-time" id="workHr">32hrs</div>
+                        <div class="card-wrapper-box-week" id="workWk"> 
                             Last week - 36hrs
                         </div>
                         </div>
@@ -59,12 +59,12 @@
                     </div>
                     <div class="card-wrapper-box">
                         <div class="card-wrapper-box-title">
-                            <span>Work</span>
+                            <span>Play</span>
                             <img src="/images/icon-ellipsis.svg" alt="" />
                         </div>
                         <div class="card-wrapper-box-md">
-                          <div class="card-wrapper-box-time">10hrs</div>
-                        <div class="card-wrapper-box-week">
+                          <div class="card-wrapper-box-time playHr" >10hrs</div>
+                        <div class="card-wrapper-box-week PlayWk">
                             Last week - 8hrs
                         </div>   
                         </div> </div>
@@ -75,12 +75,12 @@
                     </div>
                     <div class="card-wrapper-box">
                         <div class="card-wrapper-box-title">
-                            <span>Work</span>
+                            <span>Study</span>
                             <img src="/images/icon-ellipsis.svg" alt="" />
                         </div>
                         <div class="card-wrapper-box-md">
-                          <div class="card-wrapper-box-time">4hrs</div>
-                        <div class="card-wrapper-box-week">
+                          <div class="card-wrapper-box-time studyHr">4hrs</div>
+                        <div class="card-wrapper-box-week studyWk">
                             Last week - 7hrs
                         </div>  
                         </div> </div>
@@ -91,12 +91,12 @@
                     </div>
                     <div class="card-wrapper-box">
                         <div class="card-wrapper-box-title">
-                            <span>Work</span>
+                            <span>Exercise</span>
                             <img src="/images/icon-ellipsis.svg" alt="" />
                         </div>
                         <div class="card-wrapper-box-md">
-                         <div class="card-wrapper-box-time">4hrs</div>
-                        <div class="card-wrapper-box-week">
+                         <div class="card-wrapper-box-time exeHr">4hrs</div>
+                        <div class="card-wrapper-box-week exeWk">
                             Last week - 7hrs
                         </div>   
                         </div> </div>
@@ -107,12 +107,12 @@
                     </div>
                     <div class="card-wrapper-box">
                         <div class="card-wrapper-box-title">
-                            <span>Work</span>
+                            <span>Social</span>
                             <img src="/images/icon-ellipsis.svg" alt="" />
                         </div>
                         <div class="card-wrapper-box-md">
-                          <div class="card-wrapper-box-time">4hrs</div>
-                        <div class="card-wrapper-box-week">
+                          <div class="card-wrapper-box-time socialHr">4hrs</div>
+                        <div class="card-wrapper-box-week socialWk">
                             Last week - 7hrs
                         </div>  
                         </div> </div>
@@ -123,12 +123,12 @@
                     </div>
                     <div class="card-wrapper-box">
                         <div class="card-wrapper-box-title">
-                            <span>Work</span>
+                            <span>Self-care</span>
                             <img src="/images/icon-ellipsis.svg" alt="" />
                         </div>
                         <div class="card-wrapper-box-md">
-                         <div class="card-wrapper-box-time">4hrs</div>
-                        <div class="card-wrapper-box-week">
+                         <div class="card-wrapper-box-time selfHr">4hrs</div>
+                        <div class="card-wrapper-box-week selfWK">
                             Last week - 7hrs
                         </div>   
                         </div>
@@ -136,5 +136,6 @@
                 </div>
             </div>
         </div>
+        <script src="index.js"></script>
     </body>
 </html>
